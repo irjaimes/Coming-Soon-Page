@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'AdiHaus';
+    src: URL('https://assets.codepen.io/6060109/adihaus_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "AdiHaus";
+    src: url("https://assets.codepen.io/6060109/adihaus_bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  body, html {
+    min-width: 100%;
+    min-height: 100vh;
+  }
+  body{
+    display: flex;
+    margin: 0;
+  }
+  .all-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  header, #email-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .hero-image {
+    width: 100%;
+    height: 15rem;
+    margin: 10px 0; 
+    background: url("https://assets.codepen.io/6060109/athlete-girl.png") no-repeat right top;
+    background-size:cover;
+  }
+  .all-content-container {
+    padding: 20px 30px;
+    font-family: 'Adihaus'; 
+  }
+  .text-content {
+     width: 100%;
+     text-align: center;
+  }
+  h2 {
+    margin: 0;
+    font-size: 48px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+  #were {
+    color: #CD3A24;
+    font-weight: lighter;
+    text-shadow: 0px 2px 3px #a6a6a6;
+  }
+  #coming-soon {
+    color: #423A3A;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .p-content {
+    font-size: 14px;
+    line-height: 28px;
+    color :#333333;
+    text-shadow: 0px 2px 4px #b3b3b3;
+  }
+  form{
+    display: flex; 
+    justify-content:center;
+  }
+  /*  display flex lets content fill the container  */
+  .email-content {
+    margin-top: 30px;
+  }
+  #email{
+    padding: 1.2em;
+    width: 70%;
+    box-sizing: border-box;
+    color: #a6a6a6;
+    letter-spacing: 1px;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+  }
+  #go {
+    width: 15%;
+    height: 3.75em;
+    box-sizing: border-box;
+    font-family: 'Adihaus';
+    color: #ffffff;
+    background-color: #423A3A;
+    border:0;
+    border-radius: 3px;
+    padding-left: -100px;
+  }
+  .desktop-container{
+      display: none;
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    body{
+        background: url(https://assets.codepen.io/6060109/destop-bg.png);
+        background-size: cover;
+    }
+    .desktop-container{
+        display: block;
+        width: 50%;
+        background: url("https://assets.codepen.io/6060109/athlete-big.png");
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 42% 100%);
+        background-size: cover;
+    }
+    .all-container{
+            width: 50%;
+            text-align: left;
+    }
+    .hero-image{
+            display: none;
+    }
+    .text-content {
+        text-align: left;
+    }
+    form{
+        justify-content:left;
+    }
+    header {
+        justify-content:left;
+        margin-top: 40px;
+        margin-bottom: 100px;
+        margin-left: 30px;
+    }
+    h2 {
+        font-size: 64px;
+        }
+    .p-content, #email {
+        font-size: 16px;
+        text-shadow: none;
+        }
+    .email-content{
+        height: 1rem;
+    }
+    #email {
+        width: 100%;
+        height:0.5em;
+    }
+    #go{
+        font-size: 18px;
+        width: 20%;
+        height: 2.25em;   
+    }
+  }

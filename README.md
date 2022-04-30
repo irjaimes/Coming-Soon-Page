@@ -2,15 +2,14 @@
 
 ## Description
 
-This is project to practice semantic html and css flexbox.
+This is project to practice semantic HTML and CSS flexbox.
 It is a mock "Coming Soon" page for a potential client.
-It is meant to be responsive, mobile first.
-First submission is based on first design provided by client UI/UX team.
-Second submission is based on the feedback from the client.
+It is meant to be mobile responsive.
+First proposition is based on first design provided by client UI/UX team.
+Second proposition is based on the feedback from the client.
 
 ### Table of Contents
 
-- [Description](#description)
 - [Installation](#installation)
 - [License](#license)
 - [Contributing](#contributing)
@@ -18,17 +17,19 @@ Second submission is based on the feedback from the client.
 
 ### Installation
 
-No installation is required. (REVISE\*\*\*)
+No installation is required. See screenshots below.
 
 ### App Screen Shots
 
-**First Submission**
+**First Proposition**
 
-<!-- ![sc00](client/public/sc00.png) -->
+![mobile](/assets/mobile-prop1.png)
+![desktop](/assets/desktop-prop1.png)
 
-**Second Submission**
+**Second Proposition**
 
-<!-- ![sc01](client/public/sc01.png) -->
+![mobile](./assets/mobile-prop2.png)
+![desktop](/assets/desktop-prop2.png)
 
 ### License
 

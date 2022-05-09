@@ -7,13 +7,13 @@ It is a mock "Coming Soon" page for a potential client.
 It is meant to be mobile responsive.
 First proposition is based on first design provided by client UI/UX team.
 Second proposition is based on the feedback from the client.
-[Click Here](https://assets.codepen.io/6060109/COMING-SOON.fig) to download Figma Design.
+Click [Here](https://assets.codepen.io/6060109/COMING-SOON.fig) to download Figma Design.
 
 ### Table of Contents
 
 - [Installation](#installation)
+- [Images](#images)
 - [License](#license)
-- [Contributing](#contributing)
 - [Questions](#questions)
 
 ### Installation
@@ -21,7 +21,7 @@ Second proposition is based on the feedback from the client.
 No installation is required.
 Clone repository and open index.html in local server.
 
-### App Screen Shots
+### Images
 
 **First Proposition**
 

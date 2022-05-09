@@ -2,7 +2,7 @@
 
 ## Description
 
-This is project to practice semantic HTML and CSS flexbox.
+This is a project to practice semantic HTML and CSS flexbox.
 It is a mock "Coming Soon" page for a potential client.
 It is meant to be mobile responsive.
 First proposition is based on first design provided by client UI/UX team.
